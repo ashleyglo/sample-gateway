@@ -1,12 +1,12 @@
 {
-    "name": "raichu",
+    "name": "pikachu",
     "version": "0.1.0",
     "description": "Sample gateway to demonstrate making gateways with the nodule- framework.",
     "license": "UNLICENSED",
     "main": "src/index.js",
     "scripts": {
         "lint": "eslint src",
-        "local": "RAICHU__DEBUG=1 nodemon --inspect src/index.js --ignore dist/ --ignore coverage/ --exec babel-node",
+        "local": "PIKACHU__DEBUG=1 nodemon --inspect src/index.js --ignore dist/ --ignore coverage/ --exec babel-node",
         "build": "babel src --ignore __tests__,__mocks__ --out-dir dist",
         "test": "jest -w 1",
         "coverage": "jest --coverage"
@@ -17,7 +17,7 @@
         "@globality/nodule-graphql": "^0.29.0",
         "@globality/nodule-logging": "^1.5.0",
         "@globality/nodule-memcached": "^0.1.2",
-        "@globality/nodule-openapi": "^0.14.0",
+        "@globality/nodule-openapi": "^0.16.0",
         "apollo-server-core": "^1.4.0",
         "apollo-server-errors": "^2.0.2",
         "aws-sdk": "^2.392.0",

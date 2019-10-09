@@ -173,10 +173,10 @@
     lodash "^4.17.5"
     memcached "^2.2.2"
 
-"@globality/nodule-openapi@^0.14.0":
-  version "0.14.0"
-  resolved "https://globality.jfrog.io/globality/api/npm/npm/@globality/nodule-openapi/-/nodule-openapi-0.14.0.tgz#71a003d04bfdbe830727ea87a6befb4848a3949e"
-  integrity sha1-caAD0Ev9voMHJ+qHpr77SEijlJ4=
+"@globality/nodule-openapi@^0.16.0":
+  version "0.16.1"
+  resolved "https://globality.jfrog.io/globality/api/npm/npm/@globality/nodule-openapi/-/nodule-openapi-0.16.1.tgz#ebfcbddf295fde99903ef9a6b6046a7a2eaad297"
+  integrity sha1-6/y93ylf3pmQPvmmtgRqei6q0pc=
   dependencies:
     "@globality/nodule-config" "^2.3.0"
     axios "^0.18.1"
